@@ -25,6 +25,11 @@ body
   color: #000000;
 }
 
+.nav a:hover
+{
+  color: #29abe2;
+}
+
 .navl
 {
   padding-top: 0.2%;
