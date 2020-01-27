@@ -8,36 +8,49 @@
 </head>
 
 <body>
-	<!--Top NAV (Hamburger)-->
-	<div class="topnav">
-  		<a href="#home" class="active"> &nbsp; </a>
-  		<div id="myLinks">
-    		<a href="#scrmn1">Latest Trends</a>
-    		<a href="#mntxt">About</a>
-    		<a href="#ftr">Contact</a>
-  		</div>
-  		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    		<i class="fa fa-bars"></i>
-  		</a>
+	<!--Top NAV (Hamburger) for mobile-->
+	<div class="dhide">
+		<div class="topnav">
+  			<a href="#home" class="active"> &nbsp; </a>
+  			<div id="myLinks">
+    			<a href="#scrmn1">Latest Trends</a>
+    			<a href="#mntxt">About</a>
+    			<a href="#ftr">Contact</a>
+  			</div>
+  			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    			<i class="fa fa-bars"></i>
+  			</a>
+		</div>
+	</div>
+
+	<div class="mhide">
+		<div class="nav">
+			<a><img src="websitelogo.png" class="navlogo"></a>
+				<div class="navl">
+					<a  href="#scrmn1">LatestTrends</a>
+					<a  href="#mntxt">About</a>
+					<a 	href="#ftr">Contact</a>
+				</div>	
+		</div>
 	</div>
 
 	<!--Logo-->
-	<div>
-		<center><img src="websitelogo.png" class="logo" ></center>
+	<di>
+		<center><img src="websitelogo.png" class="logo dhide" ></center>
 	</div>	
 	
 
 	<div class="new">
-		<span><img src="mainscreen.png" class="mnscr"></span>	
+		<span><img src="mainscreen.png" class="mnscr" ></span>	
 	</div>
 
-	<div class="mntxt" id="mntxt">
+	<div class="mntxt" id="mntxt">	
 		<p><b>Business to Business</b> as well as a <b>Business to Consumer</b> social network platform unlike any others where you can stay updated and get ahead of others.</p>
 	</div>
 
 	<!--App Store Image-->
 	<div class="str" id="str">
-		<p class="strtxt"><b>Now Available on</b></p>
+		<p class="strtxt"><b>Now Available On</b></p>
 		<span><img src="appstore.png" class="appstr"></span><span><img src="plystr1.png" class="plystr"></span>
 	</div>
 	<br>
@@ -68,13 +81,14 @@
 	<div class="scr">
 		<div class="scrt"><b>Why Choose LetsBiz ?</b></div>
 		<div class="scrmn">
-			<div><h2><u>Top Trending Products</h2></u></div>
-			<div><center><img src="screen3.png" class="scrimg"></center></div>
+			<div class="scrtil"><u>Top Trending Products</u></div>
+			<div ><center><img src="screen3.png" class="scrimg"></center></div>
 			<div class="scrtxt">This is juust a dummy text This is juust a dummy text This is juust a dummy text......!</div>
 			<div class="scrdn"><a href="#str"> DOWNLOAD NOW</a></div>
 		</div>	
+
 		<div class="scrmn1" id="scrmn1">
-			<div class="scrtxt"><h2><u>Know The Latest Trend</h2></u></div>
+			<div class="scrtil"><u>Know The Latest Trend</u></div>
 			<div><center><img src="screen4.png" class="scrimg"></center></div>
 			<div class="scrtxt">This is juust a dummy text This is juust a dummy text This is juust a dummy text......!</div>
 			<div class="scrdn"><a href="#str"> DOWNLOAD NOW</a></div>
@@ -83,18 +97,20 @@
 
 	<!--Footer-->
 	<div class="ftr" id="ftr">
-		<div>
+		
 			<div class="ftrtxt">Find Us On</div>
-			<div class="ftric">
-				<div><a href=""><i class="fa fa-facebook"></i></a></div>
-				<div><a href=""><i class="fa fa-twitter"></i></a></div>
-				<div><a href=""> <i class="fa fa-instagram"></i></a></div>
-			</div>
+				<div class="ftric">			
+					<a href=""><i class="fa fa-facebook"></i></a>
+					<a href=""><i class="fa fa-twitter"></i></a>
+					<a href=""> <i class="fa fa-instagram"></i></a>
+				</div>
+
 			<div class="cprtxt">Copyright &copy; LetsBiz 2020 | All Rights Reserved</div>
-			</div>
+		
 	</div>
 
-	<link rel="stylesheet" type="text/css" href="small.css" media="screen and (min-width: 0px) and (max-width:600px)">
+	<link rel="stylesheet" type="text/css" href="small.css" media="screen and (min-width: 0px) and (max-width:959px)">
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen and (min-width:960px)">
 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
