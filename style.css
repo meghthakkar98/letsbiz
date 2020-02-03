@@ -1,26 +1,28 @@
 body
 {
-	margin: 0;
-	font-family: 'Assistant', sans-serif;
+  margin: 0;
+  font-family: 'Assistant', sans-serif;
+  
 }
+
+
 
 .nav
 {
   top: 0;
-  left: 0;
   width: 100%;
   position: fixed;
   background-color:#f5f6fa;
   color:#ced6e0;
   width: 100%;
   cursor: pointer;
-  
-  opacity: 0.99;
-  float: right;
+  padding: 0.5%;
+  z-index: 1; 
 }
 
 .nav a
 {
+
   text-decoration: none;
   color: #000000;
 }
@@ -30,55 +32,68 @@ body
   color: #29abe2;
 }
 
+.navimg
+{
+  float: left;
+}
+
 .navl
 {
-  padding-top: 0.2%;
+  padding-top: 0.4%;
+  width: 25%;
   float: right;
-  font-size: 30px;
-  word-spacing: 30px;
-  padding-right: 5%;
+  font-size: 20px;
+}
+
+.navl a
+{
+  padding-right: 7%;  
+  text-align: right;
+  cursor: pointer;
 }
 
 a
 {
+  cursor: pointer;
   color: #29abe2;
   text-decoration: none;
 }
 
 a:hover
 { 
+  cursor: pointer;
    color:#ced6e0;
   
 }
 
 .navlogo
 {
+
   background-color:#f5f6fa;
-  padding-top: 0.15%;
-  padding-left: 5%;
   width: 7%;
-  height: 7%;
+  height: 5%;
 }
 
 .logo
 {
+  
   padding-top: 15%;
   width:15%;
 }
 
 .mnscr
 {
-  padding-top: 7.5%;
+   margin-top: -3.5%;
   padding-right: 5%;
   float: right;
-  width: 20%;
-  height: 50%
+  width: 25%;
+  
   
 }
 
 .mntxt
 {
-  padding-top: 10%; 
+  margin-top: 17%; 
   padding-right: 55%;
   padding-left: 5%;
   font-size: 26px;
@@ -87,29 +102,26 @@ a:hover
 .str
 {
 
-  padding-left:13%;
-  padding-right: 53%;
+  padding-left:0%;
+  padding-right: 58%;
   padding-top:2%;
 }
 
 .appstr
 {
-
-  position: absolute;
-  width: 15%;
-  height: 10%;
+  padding-left:23%;
+  width: 25%;
 }
 
 .plystr
-{
-  position: absolute;
-  padding-left:17%;
-  height: 9.5%;
-  width: 15%; 
+{ 
+  padding-left:5%;
+  width: 25%; 
 }
 
 .strtxt
 {
+
   text-align: center;
   font-size: 26px;
 }
@@ -117,13 +129,17 @@ a:hover
 
 .mulicn
 {
+  width: 100%;
+  float: left;
   margin-top: 10%;
+  padding-top: 5%;
   background-color: #000000;
   text-align: center;
   padding-bottom: 5%;
 }
 .iconim
 {
+
   padding-top: 5%;
 
 }
@@ -131,79 +147,90 @@ a:hover
 {
   
   color: #29abe2;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .icont
 {
   padding-top: 1%;
-  padding-left:3%;
-  padding-right: 3%;
+  padding-left:25%;
+  padding-right: 25%;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 18px;
 }
+
+.icon1,.icon2,.icon3
+{
+  width: 33.3%;
+  background-color: #000000;
+  float: left;
+}
+
+
 
 .scr
 {
-  text-align: center;
-  padding-top: 5%;
+  right: 0;
+  margin-top: 20%;
   background-color: #ced6e0;;
 }
 
 .scrtil
 {
-  font-size: 29px;
+  padding-right: 18%;
+  text-align: right;
+  font-size: 32px;
   font-weight: bolder;
 }
 
 .scrimg
 { 
-  width: 14.5%;
-  
-}
-
-.scrdn
-{
-  color:#ced6e0; 
-  text-decoration: none;
+  float: left;
+  width: 10.5%;
+  margin-top:-10%;
+  padding-left: 25%;
 }
 
 .scrt
 {
-  
+
+  text-align: center;
   font-size: 40px;
 }
 
 .scrmn
 {
   background-color: #ced6e0;
-  padding-top: 4%;
+  padding-top: 14%;
   padding-bottom: 4%;
 }
 .scrmn1
 { 
-  padding-top: 4%;
+  padding-top: 14%;
   padding-bottom: 4%;
   background-color: #f1f2f6;
 }
 .scrtxt
 {
-  padding: 3%;
-  font-size: 26px;
+  padding-top: 5%;
+  padding-right: 5%;
+  text-align:right;
+  font-size: 24px;
 }
 
 .scrimg
 {
   padding-top: 2%;
-  
+  width: 12.5%;
 }
 
 .scrdn
 { 
-  margin-top: 0.5%;
+  margin-top: 10.5%;
   padding: 1%;
   background-color: #000000;
   color:#ced6e0;
+  text-decoration: none;
   text-align: center;
   font-size: 20px;
   width: 10%;
@@ -215,6 +242,7 @@ a:hover
 
 .ftr
 {
+  padding: 2%;
   cursor: pointer;
   bottom: 0;
   padding-top: 2%;
@@ -245,6 +273,7 @@ a:hover
   text-align:center;
   font-size: 15px;
 }
+
 
 
 .dhide

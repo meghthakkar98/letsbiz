@@ -81,22 +81,18 @@ body
 
 	padding-left:3%;
 	padding-right: 3%;
-	padding-top: 2%;
+	padding-top: 4%;
 }
 
 .appstr
 {
-
-	position: absolute;
 	width: 45%;
-	height: 7%;
+	
 }
 
 .plystr
 {
-	position: absolute;
-	padding-left:47%;
-	height: 6.7%;
+	padding-left:10%;
 	width: 45%;	
 }
 
