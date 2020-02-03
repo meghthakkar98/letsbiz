@@ -83,7 +83,7 @@ a:hover
 
 .mnscr
 {
-   margin-top: -3.5%;
+   margin-top: -5%;
   padding-right: 5%;
   float: right;
   width: 25%;
@@ -94,15 +94,15 @@ a:hover
 .mntxt
 {
   margin-top: 17%; 
-  padding-right: 55%;
-  padding-left: 5%;
+  padding-right: 35%;
+  padding-left: 10%;
   font-size: 26px;
 }
 
 .str
 {
 
-  padding-left:0%;
+  padding-left:10%;
   padding-right: 58%;
   padding-top:2%;
 }
@@ -110,15 +110,15 @@ a:hover
 .appstr
 {
   cursor: pointer;
-  padding-left:23%;
-  width: 25%;
+  padding-left:5%;
+  width: 45%;
 }
 
 .plystr
 { 
   cursor: pointer;
   padding-left:5%;
-  width: 25%; 
+  width: 45%; 
 }
 
 .strtxt
