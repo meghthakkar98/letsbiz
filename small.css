@@ -235,3 +235,12 @@ a{
 {
 	display: none;
 }
+
+@media only screen and (max-height: 600px) {
+
+ .scrdn
+{
+	font-size: 16px;	
+}
+
+}

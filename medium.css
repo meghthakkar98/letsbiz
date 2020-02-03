@@ -40,7 +40,7 @@ body
 .navl
 {
   padding-top: 0.4%;
-  width: 25%;
+  width: 40%;
   float: right;
   font-size: 20px;
 }
@@ -78,7 +78,7 @@ a:hover
 {
   
   padding-top: 15%;
-  width:15%;
+  width:25%;
 }
 
 .mnscr
@@ -86,7 +86,7 @@ a:hover
    margin-top: -3.5%;
   padding-right: 5%;
   float: right;
-  width: 25%;
+  width: 30%;
   
   
 }
@@ -96,34 +96,33 @@ a:hover
   margin-top: 17%; 
   padding-right: 55%;
   padding-left: 5%;
-  font-size: 26px;
+  font-size: 20px;
 }
 
 .str
 {
-
-  padding-left:0%;
-  padding-right: 58%;
-  padding-top:2%;
+  padding-left:10%;
+  padding-right:50%;
+  padding-top:5%;
 }
 
 .appstr
 {
   cursor: pointer;
-  padding-left:23%;
-  width: 25%;
+  padding-left: 2%;
+  width: 45%;
 }
 
 .plystr
 { 
   cursor: pointer;
-  padding-left:5%;
-  width: 25%; 
+  padding-left: 2%;
+  width: 45%; 
 }
 
 .strtxt
 {
-
+  
   text-align: center;
   font-size: 26px;
 }
@@ -147,18 +146,18 @@ a:hover
 }
 .iconti
 {
-  
+  padding-top: 3%;  
   color: #29abe2;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .icont
 {
-  padding-top: 1%;
+  padding-top: 5%;
   padding-left:25%;
   padding-right: 25%;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .icon1,.icon2,.icon3
@@ -181,14 +180,14 @@ a:hover
 {
   padding-right: 18%;
   text-align: right;
-  font-size: 32px;
+  font-size: 22px;
   font-weight: bolder;
 }
 
 .scrimg
 { 
   float: left;
-
+  width: 10.5%;
   margin-top:-10%;
   padding-left: 25%;
 }
@@ -197,7 +196,7 @@ a:hover
 {
   padding-top: 20%;
   text-align: center;
-  font-size: 36px;
+  font-size: 26px;
 }
 
 .scrmn
@@ -214,28 +213,30 @@ a:hover
 }
 .scrtxt
 {
-  padding-top: 5%;
-  padding-left: 50%;
-  padding-right: 10%;
+  padding-top: 7.5%;
+  padding-left:42%;
+  padding-right: 5%;
   text-align:center;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .scrimg
 {
+  margin-left: -15%;
   padding-top: 2%;
-  width: 12.5%;
+  width: 20%;
+
 }
 
 .scrdn
 { 
-  margin-top: 10.5%;
+  margin-top: 15.5%;
   padding: 1%;
   background-color: #000000;
   color:#ced6e0;
   text-decoration: none;
   text-align: center;
-  font-size: 20px;
+  font-size: 16px;
   width: 20%;
   margin-left: auto;
   margin-right: auto;
@@ -283,6 +284,4 @@ a:hover
 {
   display: none;
 }
-
-
 
