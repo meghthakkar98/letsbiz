@@ -1,3 +1,4 @@
+
 body
 {
   margin: 0;
@@ -39,7 +40,7 @@ body
 
 .navl
 {
-  padding-top: 0.4%;
+  padding-top: 0.8%;
   width: 40%;
   float: right;
   font-size: 20px;
@@ -70,8 +71,7 @@ a:hover
 {
 
   background-color:#f5f6fa;
-  width: 7%;
-  height: 5%;
+  width: 15%;
 }
 
 .logo
@@ -94,6 +94,7 @@ a:hover
 .mntxt
 {
   margin-top: 17%; 
+  padding-top: 5%;
   padding-right: 55%;
   padding-left: 5%;
   font-size: 20px;
@@ -178,6 +179,7 @@ a:hover
 
 .scrtil
 {
+  padding-top: 10%;
   padding-right: 7.5%;
   text-align: right;
   font-size: 32px;
@@ -206,12 +208,12 @@ a:hover
 {
   background-color: #ced6e0;
   padding-top: 14%;
-  padding-bottom: 32%;
+  padding-bottom: 25%;
 }
 .scrmn1
 { 
   padding-top: 14%;
-  padding-bottom: 32%;
+  padding-bottom: 25%;
   background-color: #f1f2f6;
 }
 .scrtxt
@@ -281,6 +283,125 @@ a:hover
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
+
   
-} 
+ 
+@media only screen and (min-width: 1024px) {
+
+
+.nav
+{
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background-color:#f5f6fa;
+  color:#ced6e0;
+  width: 100%;
+  cursor: pointer;
+  padding: 0.5%;
+  z-index: 1; 
+}
+
+.nav a
+{
+
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav a:hover
+{
+  color: #29abe2;
+}
+
+.navimg
+{
+  float: left;
+}
+
+.navl
+{
+  padding-top: 1.5%;
+  width: 32%;
+  float: right;
+  font-size: 20px;
+}
+
+.navl a
+{
+  padding-right: 4%;  
+  text-align: right;
+  cursor: pointer;
+}
+
+.navlogo
+{
+
+  background-color:#f5f6fa;
+  width: 15%;
+ 
+}
+
+.scrmn
+{
+  background-color: #ced6e0;
+  padding-top: 14%;
+  padding-bottom: 30%;
+}
+.scrmn1
+{ 
+  padding-top:14%;
+  padding-bottom: 30%;
+  background-color: #f1f2f6;
+}
+
+.scrt
+{
+  padding-top: 20%;
+  text-align: center;
+  font-size:32px;
+}
+
+.scrtxt
+{
+  padding-top: 7.5%;
+  padding-left:50%;
+  padding-right: 5%;
+  text-align:center;
+  font-size: 24px;
+}
+
+.scrtil
+{
+  padding-top: 10%;
+  padding-right: 14%;
+  text-align: right;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.mntxt
+{
+  padding-top: 8%;
+  padding-right: 55%;
+  padding-left: 5%;
+  font-size: 24px;
+}
+.iconti
+{
+  
+  color: #29abe2;
+  font-size: 24px;
+}
+
+ 
+.icont
+{
+  padding-top: 5%;
+  padding-left:25%;
+  padding-right: 25%;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+}
