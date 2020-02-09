@@ -4,7 +4,7 @@
 	<title>LetsBiz | The Business Social NetWork</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
@@ -17,7 +17,7 @@
   			<div id="myLinks">
     			<a href="#scrmn1">Latest Trends</a>
     			<a href="#mntxt">About</a>
-    			<a href="#ftr">Contact</a>
+    			<a href="#ftr">Contact Us</a>
   			</div>
   			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
     			<i class="fa fa-bars"></i>
@@ -27,18 +27,18 @@
 
 	<div class="mhide" >
 		<div class="nav">
-			<a><img src="websitelogo.png" class="navlogo"></a>
 				<div class="navl">
+					<a href="#top"><img src="websitelogo.png" class="navlogo"></a>
 					<a href="#scrmn1">Latest Trends</a>
-					<a href="#mntxt">About</a>
-					<a href="#ftr">Contact</a>
+					<a href="#top">About</a>
+					<a href="#ftr">Contact Us</a>
 				</div>	
 		</div>
 	</div>
 
 	<!--Logo-->
 	<di>
-		<center><img src="websitelogo.png" class="logo dhide" ></center>
+		<center><img src="websitelogo.png" class="logo dhide" id="top"></center>
 	</div>	
 	
 
@@ -51,9 +51,9 @@
 	</div>
 
 	<!--App Store Image-->
-	<div class="str"  id="str">
-		<p class="strtxt" data-aos="fade-up"><b>Now Available On</b></p>
-		<span><img src="istore.png" class="appstr" data-aos="fade-up"></span><span><img src="playstore.png" class="plystr" data-aos="fade-up"></span>
+	<div class="str" data-aos="fade-up"  id="str">
+		<p class="strtxt" ><b>Now Available On</b></p>
+		<span><img src="istore.png" class="appstr"></span><span><img src="playstore.png" class="plystr"></span>
 	</div>
 	<br>
 
@@ -81,20 +81,20 @@
 
 	<!--Screens page-->
 	<div class="scr">
-		<div class="scrt"><b>Why Choose LetsBiz ?</b></div>
+		<div class="scrt"><b><u>Why Choose LetsBiz ?</u></b></div>
 		<div class="scrmn">
-			<div ><center><img src="screen3.png" class="scrimg" data-aos="fade-up"></center></div>
+			<div><center><img src="screen3.png" class="scrimg" data-aos="fade-up"></center></div>
 			<div class="scrtil"><u>Top Trending Products</u></div>
 			<div class="scrtxt">This is juust a dummy text This is juust a dummy text This is juust a dummy text......!</div>
 			<div class="scrdn" data-aos="fade-up"><a href="#str">DOWNLOAD NOW</a></div>
 		</div>	
 
 
-		<div class="scrmn1">
-			<div><center><img src="screen4.png" class="scrimg" data-aos="fade-up"></center></div>
-			<div class="scrtil"><u>Know The Latest Trend</u></div>
-			<div class="scrtxt">This is juust a dummy text This is juust a dummy text This is juust a dummy text......!</div>
-			<div class="scrdn" data-aos="fade-up"><a href="#str">DOWNLOAD NOW</a></div>
+		<div class="scrmn1" id="scrmn1">
+			<div><center><img src="screen4.png" class="scrimg1" data-aos="fade-up"></center></div>
+			<div class="scrtil1"><u>Know The Latest Trend</u></div>
+			<div class="scrtxt1">This is juust a dummy text This is juust a dummy text This is juust a dummy text......!</div>
+			<div class="scrdn1" data-aos="fade-up"><a href="#str">DOWNLOAD NOW</a></div>
 		</div>	
 	</div>
 
@@ -108,6 +108,19 @@
 					<a href=""> <i class="fa fa-instagram"></i></a>
 				</div>
 
+			
+			<form action="mail_handler.php" method="post" class="ftrfrm">
+				<div class="frmtxt">Contact Us</div>
+				<div class="frmask">
+					<input type="text" name="name" placeholder="Your Name(required)" required>    <input type="email" name="email" placeholder="Your Email(required)" required>
+				</div>
+				<div>
+					
+					<textarea placeholder="Your Message...." required></textarea><br>	
+					<input type="submit" name="submit" value="Send">
+				</div>	
+			</form>
+			
 			<div class="cprtxt">Copyright &copy; LetsBiz 2020 | All Rights Reserved</div>
 		
 	</div>

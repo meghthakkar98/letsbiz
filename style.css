@@ -2,56 +2,47 @@
 body
 {
   margin: 0;
-  font-family: 'Assistant', sans-serif;
+ font-family: 'Roboto', sans-serif;
   
 }
-
-
 
 .nav
 {
   top: 0;
   width: 100%;
+  padding: 0.2%;
   position: fixed;
-  background-color:#f5f6fa;
-  color:#ced6e0;
-  width: 100%;
-  cursor: pointer;
-  padding: 0.5%;
+  background-color:#f1f2f6;
+  font-size: 24px;
   z-index: 1; 
-}
-
-.nav a
-{
-
-  text-decoration: none;
-  color: #000000;
-}
-
-.nav a:hover
-{
-  color: #29abe2;
-}
-
-.navimg
-{
-  float: left;
 }
 
 .navl
 {
-  padding-top: 0.8%;
-  width: 25%;
-  float: right;
-  font-size: 20px;
+  text-align: center;
 }
 
 .navl a
 {
-  padding-right: 7%;  
-  text-align: right;
+  margin-top: 5%;
+  padding: 3%;
+  text-decoration: none;
+  color: #000000;
   cursor: pointer;
 }
+
+.navl a:hover
+{
+  color: #29abe2;
+}
+
+.navlogo
+{
+  margin-top: 0.2%;
+  width: 3%;
+
+}
+
 
 a
 {
@@ -267,10 +258,97 @@ a:hover
 }
 
 
+.ftrfrm
+{
+
+  text-align: center;
+}
+
+.frmtxt
+{
+  padding-top: 2%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.frmask
+{
+  padding: 1%;
+  text-align: center;
+  width: 100%;
+
+}
+
+input[type=text] {
+  width: 25%;
+  background-color: #000;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #f1f2f6;
+  color: #f1f2f6;
+}
+input[type=text]:focus {
+  border-bottom: 3px solid #29abe2;
+}
+
+input[type=email] {
+  width: 25%;
+  background-color: #000;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #f1f2f6;
+  color: #f1f2f6;
+}
+
+input[type=email]:focus {
+  border-bottom: 3px solid #29abe2;
+}
+
+input[type=submit]{
+  margin-top: 2%;
+  background-color: #29abe2;
+  border: none;
+  color: white;
+  width: 10%;
+  padding: 0.5%;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+textarea {
+  width: 45%;
+  height: 100px;
+  padding: 12px 20px;
+  border: none;
+  border-bottom: 2px solid #f1f2f6;
+  background-color: #000;
+  color: #f1f2f6;
+  font-size: 16px;
+  resize: none;
+}
+
+textarea:focus
+{
+  border-bottom: 3px solid #29abe2; 
+}
+
+input::placeholder {
+  color: #29abe2;
+  font-size: 15px;
+}
+
+textarea::placeholder { 
+  color: #29abe2;
+  font-size: 15px;
+}
 
 .cprtxt
 {
-  padding-top: 2%;
+  padding-top: 5%;
   text-align:center;
   font-size: 15px;
 }

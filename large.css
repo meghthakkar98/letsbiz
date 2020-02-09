@@ -2,8 +2,7 @@
 body
 {
   margin: 0;
-  font-family: 'Assistant', sans-serif;
-  
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -12,46 +11,39 @@ body
 {
   top: 0;
   width: 100%;
+  padding: 0.2%;
   position: fixed;
-  background-color:#f5f6fa;
-  color:#ced6e0;
-  width: 100%;
-  cursor: pointer;
-  padding: 0.5%;
+  background-color:#f1f2f6;
+  font-size: 24px;
   z-index: 1; 
-}
-
-.nav a
-{
-
-  text-decoration: none;
-  color: #000000;
-}
-
-.nav a:hover
-{
-  color: #29abe2;
-}
-
-.navimg
-{
-  float: left;
 }
 
 .navl
 {
-  padding-top: 0.6%;
-  width: 25%;
-  float: right;
-  font-size: 20px;
+  text-align: center;
 }
 
 .navl a
 {
-  padding-right: 7%;  
-  text-align: right;
+  margin-top: 5%;
+  padding: 3%;
+  text-decoration: none;
+  color: #000000;
   cursor: pointer;
 }
+
+.navl a:hover
+{
+  color: #29abe2;
+}
+
+.navlogo
+{
+  margin-top: 0.2%;
+  width: 5%;
+
+}
+
 
 a
 {
@@ -63,18 +55,11 @@ a
 a:hover
 { 
   cursor: pointer;
-   color:#ced6e0;
-   transition-duration: 0.5s;
+  color:#ced6e0;
+  transition-duration: 0.2s;
    /*text-shadow: 15px 5px 5px #29abe2; */
 }
 
-.navlogo
-{
-
-  background-color:#f5f6fa;
-  width: 8%;
-
-}
 
 .logo
 {
@@ -135,18 +120,18 @@ a:hover
 {
   width: 100%;
   float: left;
-  margin-top: 10%;
-  padding-top: 5%;
+  margin-top: 5%;
+  padding-top: 3%;
   background-color: #000000;
   text-align: center;
   padding-bottom:3%;
 }
+
 .iconim
 {
-
   padding-top: 2%;
-
 }
+
 .iconti
 {
   padding-top: 2%; 
@@ -169,14 +154,19 @@ a:hover
   background-color: #000000;
   float: left;
 }
-
-
-
 .scr
 {
-  right: 0;
-  margin-top: 30%;
-  background-color: #ced6e0;;
+  
+  margin-top: 2%;
+  background-color: #ffffff;;
+}
+
+.scrt
+{
+  padding-top: 29%; 
+  color:#29abe2;
+  text-align: center;
+  font-size: 36px;
 }
 
 .scrtil
@@ -188,33 +178,42 @@ a:hover
   font-weight: bolder;
 }
 
-.scrimg
-{ 
-  float: left;
-  margin-top:-10%;
-  padding-left: 20%;
-  padding-top: 2%;
-  width: 28%;
-}
-
-.scrt
+.scrtil1
 {
-  margin-top:20%; 
-  text-align: center;
-  font-size: 36px;
+  padding-top: 10%;
+  padding-left: 19%;
+  text-align: left;
+  font-size: 32px;
+  font-weight: bolder;
 }
 
 .scrmn
 {
-  background-color: #ced6e0;
-  padding-top: 15%;
-  padding-bottom: 20%;
+  background-color: #ffffff;
+  padding-top: 2%;
+  padding-bottom: 10%;
 }
+
 .scrmn1
 { 
-  padding-top: 14%;
-  padding-bottom: 20%;
+  padding-top:2%;
+  padding-bottom: 10%;
   background-color: #f1f2f6;
+}
+.scrimg
+{ 
+  float: left;
+  padding-left: 20%;
+  padding-top: 2%;
+  width: 18%;
+}
+
+.scrimg1
+{ 
+  float: right;
+  padding-right:20%;
+  padding-top: 2%;
+  width: 18%;
 }
 .scrtxt
 {
@@ -225,10 +224,18 @@ a:hover
   font-size: 24px;
 }
 
+.scrtxt1
+{
+  padding-top: 5%;
+  padding-right: 50%;
+  padding-left: 10%;
+  text-align:center;
+  font-size: 24px;
+}
+
 
 .scrdn
 { 
-
   margin-top: 5%;
   padding: 1%;
   background-color: #000000;
@@ -241,6 +248,23 @@ a:hover
   display: block;
   cursor: pointer;
 }
+.scrdn1
+{ 
+  margin-top: 5%;
+  padding: 1%;
+  background-color: #000000;
+  color:#ced6e0;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  width: 20%;
+  margin-left:18%;
+  display: block;
+  cursor: pointer;
+}
+
+
+
 
 .ftr
 {
@@ -269,9 +293,98 @@ a:hover
 
 
 
-.cprtxt
+.ftrfrm
+{
+
+  text-align: center;
+}
+
+.frmtxt
 {
   padding-top: 2%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.frmask
+{
+  padding: 1%;
+  text-align: center;
+  width: 100%;
+
+}
+
+input[type=text] {
+  width: 25%;
+  background-color: #000;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #f1f2f6;
+  color: #f1f2f6;
+}
+input[type=text]:focus {
+  border-bottom: 3px solid #29abe2;
+}
+
+input[type=email] {
+  width: 25%;
+  background-color: #000;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #f1f2f6;
+  color: #f1f2f6;
+}
+
+input[type=email]:focus {
+  border-bottom: 3px solid #29abe2;
+}
+
+input[type=submit]{
+  margin-top: 2%;
+  background-color: #29abe2;
+  border: none;
+  color: white;
+  width: 10%;
+  padding: 0.5%;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+textarea {
+  width: 45%;
+  height: 100px;
+  padding: 12px 20px;
+  border: none;
+  border-bottom: 2px solid #f1f2f6;
+  background-color: #000;
+  color: #f1f2f6;
+  font-size: 16px;
+  resize: none;
+}
+
+textarea:focus
+{
+  border-bottom: 3px solid #29abe2; 
+}
+
+input::placeholder {
+  color: #29abe2;
+  font-size: 15px;
+}
+
+textarea::placeholder { 
+  color: #29abe2;
+  font-size: 15px;
+}  
+
+
+.cprtxt
+{
+  padding-top: 5%;
   text-align:center;
   font-size: 15px;
 }
